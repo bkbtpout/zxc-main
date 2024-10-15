@@ -79,9 +79,9 @@ header {
   gap: 20px;
   width: Fixed (1,024px)px;
   height: Fixed (768px)px;
-  padding: 20px 0px 0px 0px;
+  padding: 20px;
   gap: 10px;
-  opacity: 0px;
+
 
 
 }
@@ -92,8 +92,6 @@ header .rec {
   height: 26px;
   top: 20px;
   left: 943px;
-  gap: 0px;
-  opacity: 0px;
   
 
   font-weight: 400;
@@ -120,7 +118,7 @@ body{
   bottom: 134px;
   width: 491px;
   height: 71px;
-  font-family: 'IBMPlexMono';
+  font-family: 'IBMPlexMono' , sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 23.4px;
@@ -140,9 +138,7 @@ section{
   width: Fixed (1,024px)px;
   height: Fixed (508px)px;
   top: 828px;
-  padding: 0px 20px 0px 20px;
-  gap: 0px;
-  opacity: 0px;  
+  padding: 0px 20px 0px 20px; 
 }
 
 .left-text{
@@ -156,9 +152,7 @@ section{
   width: 314.96px;
   height: 47px;
   left: 20px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: 'IBMPlexMono';
+  font-family: 'IBMPlexMono', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -167,14 +161,13 @@ section{
 }
 
 .left-txt{
-  width: 648.92px;
+  width: 600px;
   height: 244px;
   left: 354.89px;
-  width: 648.92px;
   height: 211px;
   top: 297px;
   left: 355.08px;
-  font-family: 'IBMPlexMono';
+  font-family: 'IBMPlexMono', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
@@ -184,10 +177,7 @@ section{
 
 .group {
   width: 984px;
-  height: 508px;
-  gap: 0px;
-  opacity: 0px;
-  
+  height: 508px; 
 }
 
 .sections{
@@ -199,4 +189,64 @@ section{
 .group{
   height: 648px;
 
+}
+
+
+.link{
+  filter: drop-shadow(2px 2px #FF0070);
+  color: #F1B2CE;
+  text-decoration: none;
+}
+
+.group-kall{
+  display: block;
+  width: 984px;
+height: 498px;
+
+}
+
+.concentration{
+  width: 315px;
+height: 47px;
+left: 20px;
+font-family: 'IBMPlexMono', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.4px;
+text-align: left;
+color: #FF0070;
+}
+
+.contend{
+  display: flex;
+  column-gap: 10px;
+
+  width: 315px;
+  height: 384px;
+
+
+}
+
+.textee{
+  width: 315px;
+  height: 23px;
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  color: #000028;
+  background-color: #FF0070;
+}
+
+.xD{
+width: 290px;
+height: 351px;
+top: 33px;
+font-family: 'IBMPlexMono', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: left;
+color: #F1B2CE;
 }
