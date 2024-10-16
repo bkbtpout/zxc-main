@@ -168,10 +168,12 @@ section{
 }
 
 .left-text{
-  width: 648.92px;
-  height: 23px;
-  left: 354.89px;  
+  width: 648px;
+  height: 30px;
+  left: 354px;  
   background: #FF0070;
+  font-family: 'IBMPlexMono', sans-serif;
+  font-weight: 700;
 }
 
 .left-texte{
