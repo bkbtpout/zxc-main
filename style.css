@@ -10,16 +10,16 @@
   font-weight: 700;
 }
 
-button{    
+button {
   background-color: transparent;
-  color: #FF0070; 
+  color: #FF0070;
   font-size: 18px;
   font-family: 'IBMPlexMono', sans-serif;
   border: none;
-  
+
 }
 
-.glav-cnopka{
+.glav-cnopka {
   border: 1px solid #FF0070;
 }
 
@@ -33,8 +33,8 @@ button{
   list-style-type: none;
   gap: 15px;
 }
- 
-.yes-focus{
+
+.yes-focus {
   width: 759px;
   height: 130px;
   top: 319px;
@@ -44,7 +44,7 @@ button{
   line-height: 129.53px;
   text-align: left;
   color: #DB00FF;
-  filter: drop-shadow(4px 4px #FF0070); 
+  filter: drop-shadow(4px 4px #FF0070);
   margin: 0;
   position: absolute;
 }
@@ -53,11 +53,13 @@ button{
 
 
 
-.containter{
+.container {
   width: 1024px;
   margin: 0 auto;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 header {
@@ -73,15 +75,15 @@ header {
   background-image: url(./img/bac.png);
 }
 
-.header-box{
+.header-box {
   display: flex;
   gap: 20px;
   width: 1024px;
   padding: 20px;
 }
 
-.ygol{
-  position: absolute ;
+.ygol {
+  position: absolute;
   top: 770px;
   left: 20px;
   width: 25px;
@@ -89,22 +91,22 @@ header {
   max-width: 25px;
   border-width: 0 0 1px 1px;
   border-style: solid;
-  border-color: #FF0070; 
+  border-color: #FF0070;
 }
 
-.ygol-dva{
-  position:absolute;
+.ygol-dva {
+  position: absolute;
   top: 20px;
   left: 979px;
   width: 25px;
   height: 25px;
   max-width: 25px;
-  border-width: 1px 1px 0 0 ;
+  border-width: 1px 1px 0 0;
   border-style: solid;
   border-color: #FF0070;
 }
 
-.tochka{
+.tochka {
   position: absolute;
   width: 9px;
   height: 9px;
@@ -132,19 +134,21 @@ header .rec {
 }
 
 
-body{
+body {
   background-color: #000028;
-  justify-content:center;
+  justify-content: center;
   display: flex;
+
+  flex-direction: column;
 }
 
-.p1{
+.p1 {
   position: relative;
   width: 491px;
   height: 71px;
   top: 563px;
   left: 513px;
-  font-family: 'IBMPlexMono' , sans-serif;
+  font-family: 'IBMPlexMono', sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
@@ -152,29 +156,22 @@ body{
   color: #000028;
 }
 
-main{
+section {
   width: 1024px;
-  height: 3352px;
   top: 828px;
+  padding: 0 20px 0 20px;
 }
 
-section{
-  width: 1024px;
-  height: 508px;
-  top: 828px;
-  padding: 0 20px 0 20px; 
-}
-
-.left-text{
+.left-text {
   width: 648px;
   height: 30px;
-  left: 354px;  
+  left: 354px;
   background: #FF0070;
   font-family: 'IBMPlexMono', sans-serif;
   font-weight: 700;
 }
 
-.left-texte{
+.left-texte {
   width: 314.96px;
   height: 47px;
   left: 20px;
@@ -186,10 +183,9 @@ section{
   color: #FF0070;
 }
 
-.left-txt{
+.left-txt {
   width: 600px;
   left: 354.89px;
-  height: 211px;
   top: 297px;
   left: 355.08px;
   font-family: 'IBMPlexMono', sans-serif;
@@ -202,39 +198,33 @@ section{
 
 .group {
   width: 984px;
-  height: 508px; 
 }
 
-.sections{
+.sections {
   display: flex;
   gap: 20px;
 }
 
-.group{
-  height: 648px;
-}
-
-.right{
+.right {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 
-.link{
+.link {
   filter: drop-shadow(2px 2px #FF0070);
   color: #F1B2CE;
   text-decoration: none;
 }
 
-.group-kall{
+.group-kall {
   display: block;
   width: 984px;
-  height: 498px;
 
 }
 
-.concentration{
+.concentration {
   width: 315px;
   height: 47px;
   left: 20px;
@@ -246,13 +236,12 @@ section{
   color: #FF0070;
 }
 
-.contend{
+.contend {
   display: flex;
   column-gap: 20px;
-  height: 384px;
 }
 
-.textee{
+.textee {
   width: 315px;
   height: 23px;
   font-weight: 700;
@@ -260,21 +249,92 @@ section{
   background-color: #ff0070;
 }
 
-.xD{
+.xD {
   width: 290px;
-  height: 351px;
   top: 33px;
   font-weight: 400;
   color: #F1B2CE;
 }
 
-.big-text{
+.big-text {
   font-family: 'IBMPlexMono', sans-serif;
   font-size: 18px;
   line-height: 23.4px;
   text-align: left;
 }
 
-.tablichka{
+.tablichka {
   width: 315px;
+}
+
+
+
+
+
+.five {
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  
+}
+
+.sky {
+  width: 649px;
+  background: #FF0070;
+}
+
+.group-three {
+  width: 984px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.tekst {
+font-family: 'IBMPlexMono', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: left;
+color:#F1B2CE;
+
+
+}
+
+.link-two {
+  filter: drop-shadow(2px 2px #FF0070);
+  color: #F1B2CE;
+  text-decoration: none;
+}
+
+.left-teext {
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  color: #FF0070;
+
+}
+
+.section-two {
+  display: flex;
+  gap: 20px;
+}
+
+.box-text {
+  width: 649px;
+  
+  left: 355px;
+  gap: 20px;
+  opacity: 0px;
+  
 }
