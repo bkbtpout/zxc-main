@@ -16,7 +16,7 @@ button{
   font-size: 18px;
   font-family: 'IBMPlexMono', sans-serif;
   border: none;
-   
+  
 }
 
 .glav-cnopka{
@@ -27,10 +27,11 @@ button{
   display: flex;
   position: relative;
   justify-content: center;
-  width: 230px;
+  width: 220px;
   height: 26px;
   left: 397px;
   list-style-type: none;
+  gap: 15px;
 }
  
 .yes-focus{
@@ -74,12 +75,9 @@ header {
 
 .header-box{
   display: flex;
-  align-items: center;
   gap: 20px;
-  width: Fixed (1,024px)px;
-  height: Fixed (768px)px;
+  width: 1024px;
   padding: 20px;
-  gap: 10px;
 }
 
 .ygol{
@@ -89,7 +87,7 @@ header {
   width: 25px;
   height: 25px;
   max-width: 25px;
-  border-width: 0px 0px 1px 1px;
+  border-width: 0 0 1px 1px;
   border-style: solid;
   border-color: #FF0070; 
 }
@@ -101,7 +99,7 @@ header {
   width: 25px;
   height: 25px;
   max-width: 25px;
-  border-width: 1px 1px 0px 0px ;
+  border-width: 1px 1px 0 0 ;
   border-style: solid;
   border-color: #FF0070;
 }
@@ -149,7 +147,7 @@ body{
   font-family: 'IBMPlexMono' , sans-serif;
   font-weight: bold;
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 23px;
   background-color: #FF0070;
   color: #000028;
 }
@@ -190,7 +188,6 @@ section{
 
 .left-txt{
   width: 600px;
-  height: 244px;
   left: 354.89px;
   height: 211px;
   top: 297px;
@@ -215,6 +212,12 @@ section{
 
 .group{
   height: 648px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  
 }
 
 
@@ -245,31 +248,33 @@ section{
 
 .contend{
   display: flex;
-  column-gap: 10px;
-  width: 315px;
+  column-gap: 20px;
   height: 384px;
 }
 
 .textee{
   width: 315px;
   height: 23px;
-  font-family: 'IBMPlexMono', sans-serif;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 23.4px;
-  text-align: left;
   color: #000028;
-  background-color: #FF0070;
+  background-color: #ff0070;
 }
 
 .xD{
   width: 290px;
   height: 351px;
   top: 33px;
+  font-weight: 400;
+  color: #F1B2CE;
+}
+
+.big-text{
   font-family: 'IBMPlexMono', sans-serif;
   font-size: 18px;
-  font-weight: 400;
   line-height: 23.4px;
   text-align: left;
-  color: #F1B2CE;
+}
+
+.tablichka{
+  width: 315px;
 }
