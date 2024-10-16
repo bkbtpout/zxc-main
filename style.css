@@ -10,8 +10,8 @@ src: url(FOCUS/IBMPlexMono-Bold.ttf);
 button{    
 background-color: transparent;
 color: #FF0070; 
-size: 18px;
-font-family: 'IBMPlexMono', sans-serif;
+font-size: 18px;
+font-family: 'IBM Plex Mono', sans-serif;
 border: none;
    
 }
@@ -23,10 +23,9 @@ border: 1px solid #FF0070;
 display: flex;
 position: relative;
 justify-content: center;
-top: 20px;
-left: 397px;
 width: 230px;
 height: 26px;
+left: 397px;
 list-style-type: none;
 }
  
@@ -72,6 +71,7 @@ header {
   background-image: url(./img/bac.png);
 
 
+
 }
 .header-box{
   display: flex;
@@ -81,19 +81,54 @@ header {
   height: Fixed (768px)px;
   padding: 20px;
   gap: 10px;
+}
 
+.ygol{
+    position: absolute ;
+    top: 770px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #FF0070; 
+}
 
+.ygol-dva{
+  position:absolute;
+  top: 20px;
+  left: 979px;
+  width: 25px;
+  height: 25px;
+  max-width: 25px;
+  border-width: 1px 1px 0px 0px ;
+  border-style: solid;
+  border-color: #FF0070;
+}
+.tochka{
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 28px;
+  left: 986px;
+  background: #FF0070;
+  border-radius: 100%;
+
+  box-shadow: 0 0 4px 2px #ff0070;
 
 }
 
+
 header .rec {
   position: absolute;
-  width: 52px;
+  width: 33px;
   height: 26px;
-  top: 20px;
   left: 943px;
-  
+  top: 20px;
+  margin: 0;
 
+  font-family: 'IBM Plex Mono';
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -112,12 +147,10 @@ body{
 
 .p1{
   position: relative;
-  top: 563px;
-  left: 513px;
-  right: 20px;
-  bottom: 134px;
   width: 491px;
   height: 71px;
+  top: 563px;
+  left: 513px;
   font-family: 'IBMPlexMono' , sans-serif;
   font-weight: bold;
   font-size: 18px;
