@@ -1,48 +1,51 @@
 @font-face {
-font-family: 'IBMPlexMono';
-src: url(FOCUS/IBMPlexMono-Regular.ttf);
+  font-family: 'IBMPlexMono';
+  src: url(fonts/IBMPlexMono-Regular.ttf);
+  font-weight: 400;
 }
+
 @font-face {
-font-family: 'IBMPlexMono';
-src: url(FOCUS/IBMPlexMono-Bold.ttf);
+  font-family: 'IBMPlexMono';
+  src: url(fonts/IBMPlexMono-Bold.ttf);
+  font-weight: 700;
 }
 
 button{    
-background-color: transparent;
-color: #FF0070; 
-font-size: 18px;
-font-family: 'IBM Plex Mono', sans-serif;
-border: none;
+  background-color: transparent;
+  color: #FF0070; 
+  font-size: 18px;
+  font-family: 'IBMPlexMono', sans-serif;
+  border: none;
    
 }
+
 .glav-cnopka{
-border: 1px solid #FF0070;
+  border: 1px solid #FF0070;
 }
 
 .knopochka {
-display: flex;
-position: relative;
-justify-content: center;
-width: 230px;
-height: 26px;
-left: 397px;
-list-style-type: none;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 230px;
+  height: 26px;
+  left: 397px;
+  list-style-type: none;
 }
  
 .yes-focus{
-width: 759px;
-height: 130px;
-top: 319px;
-font-family: 'IBMPlexMono', sans-serif;
-font-size: 157px;
-font-weight: 700;
-line-height: 129.53px;
-text-align: left;
-color: #DB00FF;
-filter: drop-shadow(4px 4px #FF0070); 
-margin: 0;
-position: absolute;
-
+  width: 759px;
+  height: 130px;
+  top: 319px;
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 157px;
+  font-weight: 700;
+  line-height: 129.53px;
+  text-align: left;
+  color: #DB00FF;
+  filter: drop-shadow(4px 4px #FF0070); 
+  margin: 0;
+  position: absolute;
 }
 
 
@@ -54,10 +57,8 @@ position: absolute;
   margin: 0 auto;
   justify-content: center;
   display: flex;
-  
-
-
 }
+
 header {
   position: relative;
   width: 1024px;
@@ -69,10 +70,8 @@ header {
   flex-direction: column;
   padding-bottom: 60px;
   background-image: url(./img/bac.png);
-
-
-
 }
+
 .header-box{
   display: flex;
   align-items: center;
@@ -84,15 +83,15 @@ header {
 }
 
 .ygol{
-    position: absolute ;
-    top: 770px;
-    left: 20px;
-    width: 25px;
-    height: 25px;
-    max-width: 25px;
-    border-width: 0px 0px 1px 1px;
-    border-style: solid;
-    border-color: #FF0070; 
+  position: absolute ;
+  top: 770px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  max-width: 25px;
+  border-width: 0px 0px 1px 1px;
+  border-style: solid;
+  border-color: #FF0070; 
 }
 
 .ygol-dva{
@@ -106,6 +105,7 @@ header {
   border-style: solid;
   border-color: #FF0070;
 }
+
 .tochka{
   position: absolute;
   width: 9px;
@@ -114,9 +114,7 @@ header {
   left: 986px;
   background: #FF0070;
   border-radius: 100%;
-
   box-shadow: 0 0 4px 2px #ff0070;
-
 }
 
 
@@ -127,14 +125,11 @@ header .rec {
   left: 943px;
   top: 20px;
   margin: 0;
-
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBMPlexMono', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-
   text-align: center;
-
   color: #FF0070;
 }
 
@@ -163,15 +158,13 @@ main{
   width: 1024px;
   height: 3352px;
   top: 828px;
-
-
 }
 
 section{
-  width: Fixed (1,024px)px;
-  height: Fixed (508px)px;
+  width: 1024px;
+  height: 508px;
   top: 828px;
-  padding: 0px 20px 0px 20px; 
+  padding: 0 20px 0 20px; 
 }
 
 .left-text{
@@ -216,12 +209,10 @@ section{
 .sections{
   display: flex;
   gap: 20px;
-
 }
 
 .group{
   height: 648px;
-
 }
 
 
@@ -234,30 +225,27 @@ section{
 .group-kall{
   display: block;
   width: 984px;
-height: 498px;
+  height: 498px;
 
 }
 
 .concentration{
   width: 315px;
-height: 47px;
-left: 20px;
-font-family: 'IBMPlexMono', sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 23.4px;
-text-align: left;
-color: #FF0070;
+  height: 47px;
+  left: 20px;
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  color: #FF0070;
 }
 
 .contend{
   display: flex;
   column-gap: 10px;
-
   width: 315px;
   height: 384px;
-
-
 }
 
 .textee{
@@ -273,13 +261,13 @@ color: #FF0070;
 }
 
 .xD{
-width: 290px;
-height: 351px;
-top: 33px;
-font-family: 'IBMPlexMono', sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 23.4px;
-text-align: left;
-color: #F1B2CE;
+  width: 290px;
+  height: 351px;
+  top: 33px;
+  font-family: 'IBMPlexMono', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: #F1B2CE;
 }
